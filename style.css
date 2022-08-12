@@ -117,6 +117,9 @@ header {
 	opacity: 0;
 	display: none;
 }
+#more_checker:checked + #more_icons_label {
+	display: none;
+}
 #more_checker:checked ~ #more_icons {
 	display: inline-flex;
 	flex-wrap: wrap;
