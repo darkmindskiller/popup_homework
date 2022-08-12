@@ -7,6 +7,7 @@ body {
 header {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	align-items: center;
 	height: 50px;\
 	width: 100%;
@@ -63,6 +64,7 @@ header {
 	background-color: #99ddff;
 	border-radius: 25%;
 	border: 1px solid grey;
+	box-sizing: border-box;
 } 
 #popup_body {
 	visibility: hidden;
