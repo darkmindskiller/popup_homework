@@ -108,14 +108,14 @@ header {
 	border: 1px solid grey;
 	box-sizing: border-box;
 	background-color: #99ddff; */
-	background-image: url("/images/popup-button-active.png");
+	background-image: url("images/popup-button-active.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	outline: none; 
 }
 
 #label_icon {
-	background-image: src("/images/popup-button.png");
+	background-image: src("images/popup-button.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 30px;
@@ -123,13 +123,13 @@ header {
 }
 
 #label_icon:hover  {
-	background-image: src("/images/popup-button-hover.png");
+	background-image: src("images/popup-button-hover.png");
 	background-repeat: no-repeat;
 	background-position: center;	
 }
 
 #label_icon:active {
-	background-image: url("/images/popup-button-active.png");
+	background-image: url("images/popup-button-active.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
