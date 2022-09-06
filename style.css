@@ -47,6 +47,7 @@ header {
 
 #logo a:focus {
 	outline: none;
+	color: red;
 }
 
 /*Навигация*/
@@ -65,10 +66,9 @@ header {
 	text-decoration: none;
 }
 #nav_bar li a:focus {
-	text-decoration: underline;
+	opacity: 0.5;
 	outline: none;
 }
-
 
 #nav_bar li:hover {
 	text-decoration: underline;
