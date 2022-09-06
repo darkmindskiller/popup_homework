@@ -115,7 +115,7 @@ header {
 }
 
 #label_icon {
-	background-image: src("images/popup-button.png");
+	background-image: url("images/popup-button.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 30px;
@@ -123,7 +123,7 @@ header {
 }
 
 #label_icon:hover  {
-	background-image: src("images/popup-button-hover.png");
+	background-image: url("images/popup-button-hover.png");
 	background-repeat: no-repeat;
 	background-position: center;	
 }
